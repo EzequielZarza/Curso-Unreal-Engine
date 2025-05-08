@@ -51,3 +51,11 @@ Se agregaron sonidos para interaciones como:
 Se añadio una interfaz grafica para el nivel, el cual indica la vida del jugador,
 asi como tambien el puntaje que lleva por recolectar las monedas
 
+Se tiene tambien un menu de inicio para comenzar a jugar, asi como tambien
+la opcion de volver a jugar si uno haya ganado o perdido
+
+Finalmente, cabe mencionar que se agrego musica que va acorde con el ambiente que se quiere transmitir
+
+#### Enlace del video
+
+https://www.youtube.com/watch?v=CPNffUQLMrc
