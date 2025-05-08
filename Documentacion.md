@@ -33,3 +33,21 @@ El jugador recibe disparos de los distintos enemigos. Cuando la vida del jugador
 #### Enlace del video
 
 https://youtu.be/Nrg6rtyZt4A
+
+
+### Entrega final
+
+Sobre lo entregado anteriormente, se agregaron texturas y materiales a todo lo presente en el nivel
+Estos elementos van desde el personaje jugable, como las torretas, monedas, curador, y demas elementos que integran la escena
+Todos los materiales y actores hacen alucion a un templo antiguo de origen maya
+
+Se agregaron sonidos para interaciones como:
+- cuando el jugador recibe daño (cambia segun quien aplica el daño)
+- cuando el jugador dispara
+- cuando el jugador recarga
+- cuando algun enemigo dipara un "misil"
+- cuando el curador cura al jugador
+
+Se añadio una interfaz grafica para el nivel, el cual indica la vida del jugador,
+asi como tambien el puntaje que lleva por recolectar las monedas
+
