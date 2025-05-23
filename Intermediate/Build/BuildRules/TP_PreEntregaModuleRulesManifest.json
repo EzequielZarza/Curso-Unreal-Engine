@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UTN-e-learning\\Unreal-Engine\\Unreal-Projects\\TP_PreEntrega\\Source\\TP_PreEntrega\\TP_PreEntrega.Build.cs",
+		"D:\\UTN-e-learning\\Unreal-Engine\\Unreal-Projects\\TP_PreEntrega\\Source\\TP_PreEntrega.Target.cs",
+		"D:\\UTN-e-learning\\Unreal-Engine\\Unreal-Projects\\TP_PreEntrega\\Source\\TP_PreEntregaEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

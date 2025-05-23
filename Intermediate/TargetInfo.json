@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TP_PreEntrega",
+			"Path": "D:\\UTN-e-learning\\Unreal-Engine\\Unreal-Projects\\TP_PreEntrega\\Source\\TP_PreEntrega.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TP_PreEntregaEditor",
+			"Path": "D:\\UTN-e-learning\\Unreal-Engine\\Unreal-Projects\\TP_PreEntrega\\Source\\TP_PreEntregaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
