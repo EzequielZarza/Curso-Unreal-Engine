@@ -36,7 +36,7 @@ public: \
 
 #define TP_PreEntrega_Source_TP_PreEntrega_Actors_BaseBullet_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABaseBullet(const FObjectInitializer& ObjectInitializer); \
+	NO_API ABaseBullet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABaseBullet) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABaseBullet); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseBullet); \
@@ -48,6 +48,8 @@ public:
 
 
 #define TP_PreEntrega_Source_TP_PreEntrega_Actors_BaseBullet_h_12_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ABaseBullet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABaseBullet(ABaseBullet&&); \
@@ -55,7 +57,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABaseBullet); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseBullet); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseBullet)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABaseBullet)
 
 
 #define TP_PreEntrega_Source_TP_PreEntrega_Actors_BaseBullet_h_12_PRIVATE_PROPERTY_OFFSET

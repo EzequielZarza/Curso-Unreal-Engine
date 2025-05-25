@@ -1,0 +1,3 @@
+D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\Definitions.TP_PreEntrega.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

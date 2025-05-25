@@ -2,26 +2,31 @@
 
 
 #include "BaseBullet.h"
+#include "TimerManager.h"
 
-// Sets default values
-ABaseBullet::ABaseBullet()
+// Called every frame
+void ABaseBullet::Tick(float deltaSeconds)
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+	AddActorLocalOffset(speed, true);
 }
 
 // Called when the game starts or when spawned
 void ABaseBullet::BeginPlay()
 {
+	GetWorldTimerManager().SetTimer(timer, this, &ABaseBullet::EjemploTimer, 1, true);
+
+	GetWorldTimerManager().SetTimer(destroyTimerHandle, this, &ABaseBullet::DestroyTimer, 3, true);
+
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
 	Super::BeginPlay();
 	
 }
 
-// Called every frame
-void ABaseBullet::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
+void ABaseBullet::EjemploTimer() {
 
 }
 
+void ABaseBullet::DestroyTimer() {
+	Destroy();
+}

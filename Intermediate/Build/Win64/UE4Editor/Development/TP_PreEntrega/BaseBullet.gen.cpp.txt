@@ -1,0 +1,5 @@
+D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\Definitions.TP_PreEntrega.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Source\TP_PreEntrega/Actors/BaseBullet.h
+d:\utn-e-learning\unreal-engine\unreal-projects\tp_preentrega\intermediate\build\win64\ue4editor\inc\tp_preentrega\BaseBullet.generated.h

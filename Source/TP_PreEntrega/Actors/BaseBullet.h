@@ -11,16 +11,21 @@ class TP_PREENTREGA_API ABaseBullet : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
-	// Sets default values for this actor's properties
-	ABaseBullet();
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	FTimerHandle timer;
+	FTimerHandle destroyTimerHandle;
+
+	void Tick(float deltaSeconds) override;
+	void EjemploTimer();
+	void DestroyTimer();
+
+	UPROPERTY(EditAnywhere) FVector speed;
+	UPROPERTY(EditAnywhere) float duration;
+	UPROPERTY(EditAnywhere) float damage;
+	UPROPERTY(EditAnywhere) bool destroyOnContact;
 
 };
