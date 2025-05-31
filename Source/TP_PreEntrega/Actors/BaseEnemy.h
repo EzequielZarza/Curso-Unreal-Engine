@@ -13,10 +13,15 @@ class TP_PREENTREGA_API ABaseEnemy : public AActor
 	
 public:	
 	FTimerHandle timerHandle;
+	int bulletsShot;
+	int scoreToAdd;
 
+	UPROPERTY(EditAnywhere) int bulletsToShoot;
+	UPROPERTY(EditAnywhere) float life;
 	UPROPERTY(EditAnywhere) TSubclassOf<AActor> blueprintToSpawn;
 	UPROPERTY(EditAnywhere) FRotator rotationSpeed;
 	UPROPERTY(EditAnywhere) float time;
+	virtual void Tick(float deltaSeconds) override;
 
 protected:
 	// Called when the game starts or when spawned

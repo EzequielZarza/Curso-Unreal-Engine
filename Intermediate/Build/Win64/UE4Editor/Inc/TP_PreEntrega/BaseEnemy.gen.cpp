@@ -35,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletsToShoot_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_bulletsToShoot;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_life_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_life;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_blueprintToSpawn_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_blueprintToSpawn;
@@ -61,6 +69,20 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseEnemy_Statics::NewProp_bulletsToShoot_MetaData[] = {
+		{ "Category", "BaseEnemy" },
+		{ "ModuleRelativePath", "Actors/BaseEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABaseEnemy_Statics::NewProp_bulletsToShoot = { "bulletsToShoot", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseEnemy, bulletsToShoot), METADATA_PARAMS(Z_Construct_UClass_ABaseEnemy_Statics::NewProp_bulletsToShoot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABaseEnemy_Statics::NewProp_bulletsToShoot_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseEnemy_Statics::NewProp_life_MetaData[] = {
+		{ "Category", "BaseEnemy" },
+		{ "ModuleRelativePath", "Actors/BaseEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseEnemy_Statics::NewProp_life = { "life", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseEnemy, life), METADATA_PARAMS(Z_Construct_UClass_ABaseEnemy_Statics::NewProp_life_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABaseEnemy_Statics::NewProp_life_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseEnemy_Statics::NewProp_blueprintToSpawn_MetaData[] = {
 		{ "Category", "BaseEnemy" },
 		{ "ModuleRelativePath", "Actors/BaseEnemy.h" },
@@ -82,6 +104,8 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseEnemy_Statics::NewProp_time = { "time", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseEnemy, time), METADATA_PARAMS(Z_Construct_UClass_ABaseEnemy_Statics::NewProp_time_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABaseEnemy_Statics::NewProp_time_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseEnemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp_bulletsToShoot,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp_life,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp_blueprintToSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp_rotationSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseEnemy_Statics::NewProp_time,
@@ -113,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseEnemy, 2289894353);
+	IMPLEMENT_CLASS(ABaseEnemy, 3499039772);
 	template<> TP_PREENTREGA_API UClass* StaticClass<ABaseEnemy>()
 	{
 		return ABaseEnemy::StaticClass();

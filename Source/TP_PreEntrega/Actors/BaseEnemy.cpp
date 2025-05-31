@@ -18,6 +18,22 @@ void ABaseEnemy::Timer()
 {
 	AddActorLocalRotation(rotationSpeed, true);
 
-	GetWorld()->SpawnActor<AActor>(blueprintToSpawn.Get(), GetActorLocation(), GetActorRotation());
+	
+	if (bulletsShot < bulletsToShoot && GetActorRotation().Yaw > 0 && GetActorRotation().Yaw < 45) {
+		//GetWorldTimerManager().ClearTimer(timerHandle);
+
+		GetWorld()->SpawnActor<AActor>(blueprintToSpawn.Get(), GetActorLocation(), GetActorRotation());
+		bulletsShot++;
+
+	}
 }
 
+void ABaseEnemy::Tick(float deltaSeconds) {
+	if (life <= 0) {
+		/*AMyGameModeBase* mode = Cast<AMyGameModeBase>(GetWorld()->GetAuthGameMode());
+		if (mode != nullptr) {
+			mode->currentScore += scoreToAdd;
+		}*/
+		Destroy();
+	}
+}

@@ -23,6 +23,10 @@ void ABaseBullet::BeginPlay()
 	
 }
 
+void ABaseBullet::NotifyActorBeginOverlap(AActor* OtherActor) {
+	OtherActor->Destroy();
+}
+
 void ABaseBullet::EjemploTimer() {
 
 }

@@ -20,6 +20,7 @@ public:
 	FTimerHandle destroyTimerHandle;
 
 	void Tick(float deltaSeconds) override;
+	void NotifyActorBeginOverlap(AActor* OtherActor) override;
 	void EjemploTimer();
 	void DestroyTimer();
 

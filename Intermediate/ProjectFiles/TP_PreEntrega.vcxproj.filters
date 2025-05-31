@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TP_PreEntrega.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C973F8DC-5FDB-45CA-AAB7-84E15F6A90C5}</UniqueIdentifier>
+      <UniqueIdentifier>{03DE6775-89DE-4702-ADB5-6AA481423F50}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TP_PreEntrega.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\Documentacion.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{1288B9FF-6A70-4BA7-9310-1317B5B2935A}</UniqueIdentifier>
+      <UniqueIdentifier>{65410866-4545-4C13-85DD-D0EB4AF440C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TP_PreEntrega">
-      <UniqueIdentifier>{6ED31A3B-7B7C-4537-8909-5A92985FF4F8}</UniqueIdentifier>
+      <UniqueIdentifier>{48F9FF8E-9020-485C-8BFC-29259B120EB2}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TP_PreEntrega\MyGameModeBase.cpp">
+      <Filter>Source\TP_PreEntrega</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TP_PreEntrega\MyGameModeBase.h">
+      <Filter>Source\TP_PreEntrega</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TP_PreEntrega\TP_PreEntrega.Build.cs">
       <Filter>Source\TP_PreEntrega</Filter>
     </None>
@@ -44,7 +50,7 @@
       <Filter>Source\TP_PreEntrega</Filter>
     </ClInclude>
     <Filter Include="Source\TP_PreEntrega\Actors">
-      <UniqueIdentifier>{EF071EF0-40D6-44B1-AFEC-9A7EBF8152D3}</UniqueIdentifier>
+      <UniqueIdentifier>{C5DA895B-F7BF-4FA0-B768-56FD72FA25DE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TP_PreEntrega\Actors\BaseBullet.cpp">
       <Filter>Source\TP_PreEntrega\Actors</Filter>
@@ -56,6 +62,12 @@
       <Filter>Source\TP_PreEntrega\Actors</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TP_PreEntrega\Actors\BaseEnemy.h">
+      <Filter>Source\TP_PreEntrega\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TP_PreEntrega\Actors\BasePlayer.cpp">
+      <Filter>Source\TP_PreEntrega\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TP_PreEntrega\Actors\BasePlayer.h">
       <Filter>Source\TP_PreEntrega\Actors</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TP_PreEntrega\Actors\MyActor.cpp">
