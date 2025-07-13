@@ -3,10 +3,10 @@
   Using Visual Studio 2017 14.16.27054 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
     [1/4] MyCharacter.cpp
-    [2/4] UE4Editor-TP_PreEntrega-0121.lib
-       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0121.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0121.exp
-    [3/4] UE4Editor-TP_PreEntrega-0121.dll
-       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0121.suppressed.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0121.suppressed.exp
+    [2/4] UE4Editor-TP_PreEntrega-0122.lib
+       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.exp
+    [3/4] UE4Editor-TP_PreEntrega-0122.dll
+       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.suppressed.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.suppressed.exp
     [4/4] TP_PreEntregaEditor.target
-  Total time in Parallel executor: 3,91 seconds
-  Total execution time: 5,81 seconds
+  Total time in Parallel executor: 4,38 seconds
+  Total execution time: 6,34 seconds
