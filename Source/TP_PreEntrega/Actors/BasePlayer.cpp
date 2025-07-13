@@ -15,4 +15,10 @@ void ABasePlayer::Shoot()
 {
 	GetWorld()->SpawnActor<AActor>(bulletBlueprint.Get(), GetActorLocation(), GetActorRotation());
 }
+// Called when the game starts or when spawned
+void ABasePlayer::BeginPlay()
+{
+	Super::BeginPlay();
+
+}
 

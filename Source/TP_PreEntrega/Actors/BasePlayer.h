@@ -11,6 +11,10 @@ class TP_PREENTREGA_API ABasePlayer : public APawn
 {
 	GENERATED_BODY()
 
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 public:	
 	UPROPERTY(EditAnywhere) TSubclassOf<AActor> bulletBlueprint;
 

@@ -4,6 +4,12 @@
 #include "MyCharacter.h"
 #include "Components/InputComponent.h"
 
+void AMyCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+}
+
 void AMyCharacter::VerticalMovementAxis(float value = 5)
 {
 	float deltaSeconds = GetWorld()->GetDeltaSeconds();
@@ -13,7 +19,7 @@ void AMyCharacter::VerticalMovementAxis(float value = 5)
 
 void AMyCharacter::HorizontalMovementAxis(float value = 5) {
 	float deltaSeconds = GetWorld()->GetDeltaSeconds();
-	FVector movement = GetActorForwardVector() * movementSpeed * deltaSeconds * value;
+	FVector movement = GetActorRightVector() * movementSpeed * deltaSeconds * value;
 	AddMovementInput(movement);
 }
 

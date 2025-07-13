@@ -11,6 +11,10 @@ class TP_PREENTREGA_API AMyCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 public:	
 	UPROPERTY(EditAnywhere) float movementSpeed;
 	UPROPERTY(EditAnywhere) float rotationSpeed;
