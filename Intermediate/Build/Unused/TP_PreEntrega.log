@@ -1,12 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega).
   Building TP_PreEntregaEditor...
   Using Visual Studio 2017 14.16.27054 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] BaseEnemy.cpp
-    [2/4] UE4Editor-TP_PreEntrega-0097.lib
-       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0097.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0097.exp
-    [3/4] UE4Editor-TP_PreEntrega-0097.dll
-       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0097.suppressed.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0097.suppressed.exp
-    [4/4] TP_PreEntregaEditor.target
-  Total time in Parallel executor: 3,09 seconds
-  Total execution time: 4,41 seconds
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-TP_PreEntrega-0117.lib
+       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0117.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0117.exp
+    [2/3] UE4Editor-TP_PreEntrega-0117.dll
+       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0117.suppressed.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0117.suppressed.exp
+    [3/3] TP_PreEntregaEditor.target
+  Total time in Parallel executor: 5,34 seconds
+  Total execution time: 9,91 seconds

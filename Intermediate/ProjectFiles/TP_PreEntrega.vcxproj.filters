@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TP_PreEntrega.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{03DE6775-89DE-4702-ADB5-6AA481423F50}</UniqueIdentifier>
+      <UniqueIdentifier>{7A1E33E1-1FC1-40D1-A21A-EC71D5379BD2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TP_PreEntrega.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\Documentacion.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{65410866-4545-4C13-85DD-D0EB4AF440C8}</UniqueIdentifier>
+      <UniqueIdentifier>{2B86FF5F-5DE8-4CCA-B063-4C77B680DA07}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TP_PreEntrega">
-      <UniqueIdentifier>{48F9FF8E-9020-485C-8BFC-29259B120EB2}</UniqueIdentifier>
+      <UniqueIdentifier>{F0431F52-0684-4880-A996-9A37A2EF0678}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TP_PreEntrega\MyCharacter.cpp">
+      <Filter>Source\TP_PreEntrega</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TP_PreEntrega\MyCharacter.h">
+      <Filter>Source\TP_PreEntrega</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TP_PreEntrega\MyGameModeBase.cpp">
       <Filter>Source\TP_PreEntrega</Filter>
     </ClCompile>
@@ -50,7 +56,7 @@
       <Filter>Source\TP_PreEntrega</Filter>
     </ClInclude>
     <Filter Include="Source\TP_PreEntrega\Actors">
-      <UniqueIdentifier>{C5DA895B-F7BF-4FA0-B768-56FD72FA25DE}</UniqueIdentifier>
+      <UniqueIdentifier>{88BD1C28-87C5-4D6F-BAAD-B9D909699AFD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TP_PreEntrega\Actors\BaseBullet.cpp">
       <Filter>Source\TP_PreEntrega\Actors</Filter>
