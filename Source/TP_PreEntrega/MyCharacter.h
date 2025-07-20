@@ -21,7 +21,6 @@ public:
 
 	void StartJump();
 	void EndJump();
-	
 	void VerticalMovementAxis(float value);
 	void VerticalLookAxis(float value);
 	void HorizontalMovementAxis(float value);

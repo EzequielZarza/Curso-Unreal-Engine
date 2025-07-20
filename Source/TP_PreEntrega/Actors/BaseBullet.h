@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "../MyCharacter.h"
 #include "GameFramework/Actor.h"
 #include "BaseBullet.generated.h"
 
@@ -17,10 +18,11 @@ protected:
 
 public:	
 	FTimerHandle timer;
-	FTimerHandle destroyTimerHandle;
+	//FTimerHandle destroyTimerHandle;
 
 	void Tick(float deltaSeconds) override;
-	void NotifyActorBeginOverlap(AActor* OtherActor) override;
+	//void NotifyActorBeginOverlap(AActor* OtherActor) override;
+	void NotifyCharacterBeginOverlap(AMyCharacter* ACharacter);
 	void EjemploTimer();
 	void DestroyTimer();
 

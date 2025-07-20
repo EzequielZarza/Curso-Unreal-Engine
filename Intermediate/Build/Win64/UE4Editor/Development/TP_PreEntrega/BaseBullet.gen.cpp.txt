@@ -2,4 +2,12 @@ D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build
 D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Source\TP_PreEntrega/Actors/BaseBullet.h
+d:\utn-e-learning\unreal-engine\unreal-projects\tp_preentrega\source\tp_preentrega\actors\../MyCharacter.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+D:\UE4-Windows\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+D:\UE4-Windows\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\UE4-Windows\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\UE4-Windows\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+d:\utn-e-learning\unreal-engine\unreal-projects\tp_preentrega\intermediate\build\win64\ue4editor\inc\tp_preentrega\MyCharacter.generated.h
 d:\utn-e-learning\unreal-engine\unreal-projects\tp_preentrega\intermediate\build\win64\ue4editor\inc\tp_preentrega\BaseBullet.generated.h

@@ -1,12 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega).
+  Parsing headers for TP_PreEntregaEditor
+    Running UnrealHeaderTool "D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\TP_PreEntrega.uproject" "D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\TP_PreEntregaEditor\Development\TP_PreEntregaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ezequ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for TP_PreEntregaEditor in 12,8898146 seconds
   Building TP_PreEntregaEditor...
   Using Visual Studio 2017 14.16.27054 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] MyCharacter.cpp
-    [2/4] UE4Editor-TP_PreEntrega-0122.lib
-       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.exp
-    [3/4] UE4Editor-TP_PreEntrega-0122.dll
-       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.suppressed.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0122.suppressed.exp
-    [4/4] TP_PreEntregaEditor.target
-  Total time in Parallel executor: 4,38 seconds
-  Total execution time: 6,34 seconds
+  Building 5 actions with 8 processes...
+    [1/5] BaseBullet.cpp
+    [2/5] BaseBullet.gen.cpp
+    [3/5] UE4Editor-TP_PreEntrega-0130.lib
+       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0130.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0130.exp
+    [4/5] UE4Editor-TP_PreEntrega-0130.dll
+       Creating library D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0130.suppressed.lib and object D:\UTN-e-learning\Unreal-Engine\Unreal-Projects\TP_PreEntrega\Intermediate\Build\Win64\UE4Editor\Development\TP_PreEntrega\UE4Editor-TP_PreEntrega-0130.suppressed.exp
+    [5/5] TP_PreEntregaEditor.target
+  Total time in Parallel executor: 10,29 seconds
+  Total execution time: 25,72 seconds
