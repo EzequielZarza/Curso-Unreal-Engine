@@ -80,7 +80,7 @@ Se desarrollaron tres clases base de la cual se heredan los comportamientos prin
 
 ### Ambientacion
 
-Para el nivel se empleo musica, distintas texturas, y tambien se hizo uso de los modos de landscape y foliage
+Para el nivel se empleo musica, distintas texturas, y tambien se hizo uso de los modos de landscape y foliage. Tambien se hizo uso de Good Sky como biblioteca para mejorar el cielo, dando un aspecto de atardecer agradable
 
 ### Menu
 
