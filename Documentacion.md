@@ -59,3 +59,57 @@ Finalmente, cabe mencionar que se agrego musica que va acorde con el ambiente qu
 #### Enlace del video
 
 https://www.youtube.com/watch?v=CPNffUQLMrc
+
+
+# Trabajo de final de cursada
+
+## Programacion de videojuegos Avanzada con Unreal Engine
+
+### Tematica
+
+Para el trabajo practico, se realizo la entrega de dificultad media, y siguiendo la tematica del curso principiante, se realizo un third person shooter con mecanicas de plataformero 3D.
+Se tratará de un arqueologo que se encuentra en unas ruinas mayas, el cual tendra que resolver recolectar ciertos elementos para poder sobrevivir, meintras se enfrenta a diversos enemigos que dificultarán la tarea.
+
+### Clases
+
+Se desarrollaron tres clases base de la cual se heredan los comportamientos principales
+
+-MyCharacter: proporcionara el movimiento de nuestro personaje
+-BaseBullet: proporcionara la velocidad y otros parametros de las distintas balas
+-BaseEnemy: porporcionara la vida por defecto de nuestros enemigos fijos (torretas y torres)
+
+### Ambientacion
+
+Para el nivel se empleo musica, distintas texturas, y tambien se hizo uso de los modos de landscape y foliage
+
+### Menu
+
+Se tiene un menu de inicio donde se puede comenzar el juego o salir del mismo. Dicho menu esta presente tambien al ganar o perder el juego. Durante el juego, se puede pausar con Shft+z, o reiniciar el nivel con Shft+r
+
+### Sistema de particulas
+
+Se crearon 3 sistemas de particulas
+
+Uno que muestra al inicio donde se encuentra el curador
+Otro que aparece cada vez que nos cura dicho curador
+Y un ultimo que se muestra cuando aparece en el mapa un cierto tipo de enemigo (golem)
+
+### Enemigos
+
+EL juego posee distintas clases de enemigos
+
+Por un lado torres y torretas que disparan distintos projectiles dirigidos al jugador. Ambos enemigos giran segun la posicion del jugador
+
+Por otro lado se tiene a los "golems", enemigos que aparece cada cierto tiempo en el mapa y que siguen la posicion del jugador mediante IA (implementada en el Blueprint). No puede haber mas de 3 en el mapa, y al tocar al jugador, cambian de animacion y le infrinjen daño
+
+#### Condicion de Victioria
+
+Al agarrar las monedas, el jugador suma 2 puntos. Al sumar 64 puntos, que actualmente se da con el total de monedas, se gana el nivel. Para lograrlo, al sumar 60 puntos, se activa la plataforma desde el techo del templo, permitiendo al jugador recolectar las modnedas que quedan.Al recolecar toas las monedas se muestra un nuevo nivel que muestra un cartel de victoria.
+
+#### Condicion de Derrota
+
+El jugador recibe disparos de los distintos enemigos, asi commo tambien daño de los golems cuando lo tocan. Cuando la vida del jugador llega a cero, se pierde el nivel. Se muestra un nuevo nivel que muestra un cartel de derrota.
+
+#### Enlace del video
+
+https://youtu.be/c8UGdit6-d8
